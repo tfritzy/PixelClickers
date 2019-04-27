@@ -1,0 +1,9 @@
+<div class="MonsterPane">  
+    <div class="monster-sub-pane" (click)="attack()">
+        <img class="MonsterImage center"[src]="(imgPath + imgFileName)">
+        <div class="healthbar">
+            <div class="healthbar-front" [style.width.%]="(health / startingHealth)*100"> </div>   
+        </div>
+        
+    </div>
+</div>

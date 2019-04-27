@@ -1,0 +1,20 @@
+
+<img class="background" [src]="(imageFolderPath + backgroundImage)">
+
+<div class="UpgradePane">
+  <div class="gold-border"> 
+     <h1>{{gold}}</h1>
+  </div>  
+  <div class="upgrade-select-scrollview"> 
+    <div *ngFor="let hero of heroes" class="hero-element">
+        <button>
+          Level Up
+          <p>9651K</p>
+        </button>
+        <h2 class="hero-descriptor-text inline">Damage: {{hero.damage}}</h2>
+        <h2 class="inline">{{hero.name}}</h2>
+      </div>
+  </div> 
+</div>
+
+<monster></monster>

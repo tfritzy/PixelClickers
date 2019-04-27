@@ -1,0 +1,42 @@
+.MonsterPane {
+    width: 50%;
+    height: 90%;
+    background: #00000000;
+    float: right;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .MonsterImage {
+    width: 90%;
+    height: 90%;
+  }
+  
+  .monster-sub-pane {
+    height: 50%;
+    width: 50%;
+  }
+  
+  .healthbar {
+    width: 30%; 
+    height: 8%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    background-color: red;
+    margin: auto;
+    margin-top: 5%;
+  }
+  
+  .healthbar-front {
+    background-color: green;
+    height: 100%;
+  }
+
+  img {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+  }
